@@ -94,6 +94,7 @@ section .content p {
 
   color: var(--paragraph);
 }
+
 /* NAVIGATION */
 nav {
   display: flex;
@@ -130,7 +131,6 @@ nav button {
   border: none;
   cursor: pointer;
 }
-
 
 /* MENU-EXPANDED */
 body.menu-expanded {
@@ -229,8 +229,6 @@ body.menu-expanded .logo path {
 body.menu-expanded button path {
   stroke: white;
 }
-
-
 
 /* #HOME */
 #home {
