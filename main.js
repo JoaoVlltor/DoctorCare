@@ -1,29 +1,30 @@
 function onScroll() {
     if (scrollY > 0) {
-        navigation.classlist.add('scroll')
+      navigation.classList.add('scroll')
     } else {
-        navigation.classlist.remove('scroll')
+      navigation.classList.remove('scroll')
     }
-}
-
-function openMenu() {
+  }
+  
+  function openMenu() {
     document.body.classList.add('menu-expanded')
-}
-
-function closeMenu() {
+  }
+  
+  function closeMenu() {
     document.body.classList.remove('menu-expanded')
-}
-
-ScrollReveal({
+  }
+  
+  ScrollReveal({
     origin: 'top',
     distance: '30px',
     duration: 700,
-}).reveal(`
-#home,
-#home img,
-#home .stats,
-#services,
-#services .card,
-#about,
-#about header,
-#about .content`)
+  }).reveal(`
+    #home, 
+    #home img, 
+    #home .stats, 
+    #services,
+    #services header,
+    #services .card
+    #about, 
+    #about header, 
+    #about .content`)  
