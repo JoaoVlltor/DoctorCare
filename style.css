@@ -36,7 +36,7 @@ body {
 }
 
 body {
-  font-family: 'DM Sans';
+  font-family: "DM Sans";
   font-size: 1.6rem;
 
   text-align: center;
@@ -141,12 +141,12 @@ section .content p {
   fill: var(--brand-light);
 }
 
-#navigation .logo path[fill*='#00856F'],
+#navigation .logo path[fill*="#00856F"],
 #backToTopButton circle {
   fill: var(--primary-color);
 }
 
-button.open-menu path[stroke*='#00856F'],
+button.open-menu path[stroke*="#00856F"],
 #contact li path {
   stroke: var(--primary-color);
 }
@@ -156,7 +156,7 @@ body.menu-expanded #navigation .logo path,
   fill: white;
 }
 
-#navigation.scroll button.open-menu path[stroke*='#00856F'] {
+#navigation.scroll button.open-menu path[stroke*="#00856F"] {
   stroke: white;
 }
 
@@ -199,7 +199,7 @@ body.menu-expanded {
   overflow: hidden;
 }
 
-body.menu-expanded> :not(nav) {
+body.menu-expanded > :not(nav) {
   visibility: hidden;
 }
 
@@ -297,7 +297,7 @@ body.menu-expanded button path {
 }
 
 #home::before {
-  content: '';
+  content: "";
   width: 100%;
   height: calc(72% + var(--nav-height));
   background-color: var(--brand-light);
@@ -478,7 +478,6 @@ footer .social-links {
 
 /* RESPONSIVE */
 @media (min-width: 1024px) {
-
   /* GERAL */
   body {
     overflow: auto;
@@ -582,7 +581,7 @@ footer .social-links {
   }
 
   nav#navigation .menu li a {
-    transition: .4s;
+    transition: 0.4s;
   }
 
   nav#navigation .menu li a:hover {
@@ -591,7 +590,7 @@ footer .social-links {
   }
 
   nav#navigation .menu li a::after {
-    content: '';
+    content: "";
     width: 0%;
     height: 2px;
     background-color: var(--primary-color);
@@ -636,8 +635,8 @@ footer .social-links {
   #home .wrapper {
     grid-template-columns: 60.5rem 1fr;
     grid-template-areas:
-      'A B'
-      'C C';
+      "A B"
+      "C C";
   }
 
   #home .col-a {
@@ -660,7 +659,7 @@ footer .social-links {
     gap: 0;
   }
 
-  #home .stats .stat+.stat {
+  #home .stats .stat + .stat {
     border-left: 1px solid var(--primary-color);
   }
 
@@ -696,7 +695,7 @@ footer .social-links {
   /* ABOUT */
   #about .wrapper {
     grid-template-columns: 48rem 1fr;
-    grid-template-areas: 'B A';
+    grid-template-areas: "B A";
     gap: 6rem;
   }
 
@@ -711,7 +710,7 @@ footer .social-links {
   /* CONTACT */
   #contact .wrapper {
     grid-template-columns: 1fr 57.5rem;
-    grid-template-areas: 'A B';
+    grid-template-areas: "A B";
   }
 
   #contact h2 {
@@ -725,7 +724,7 @@ footer .social-links {
 
   footer .wrapper {
     grid-template-columns: 1fr 1fr;
-    grid-template-areas: 'A B';
+    grid-template-areas: "A B";
   }
 
   footer .col-a {
