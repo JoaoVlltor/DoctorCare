@@ -42,4 +42,4 @@ Esse projeto está sob a licença MIT.
 
 ---
 
-Feito durante a NLW pela Rocketseat 💜
+Feito durante a NLW pela Rocketseat 
